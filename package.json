@@ -6,6 +6,7 @@
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
     "@rails/webpacker": "4.2.2",
+    "stimulus_reflex": "^3.2.2-pre1",
     "tailwindcss": "^1.4.6",
     "turbolinks": "^5.2.0"
   },

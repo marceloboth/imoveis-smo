@@ -1,0 +1,9 @@
+:concurrency: 2
+:logfile: ./log/sidekiq.log
+:queues:
+    - default
+
+:schedule:
+  scrap_web_sites:
+    cron: '*/5 * * * *'   # Runs once per minute
+    class: ScrapWebSitesWorker
